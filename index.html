@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo" style="color: #002f34;">
+                <svg width="48px" height="48px" color="#002f34" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd" ><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z" ></path></svg>
+            </div>
+
+            <div class="search-dropdown">
+                <div class="icon"><i class="fas fa-search"></i></div>
+                <div class="selected">India</div>
+                <div class="arrow"><i class="fas fa-chevron-down"></i></div>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Find Cars, Mobile Phones and more...">
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+            </div>
+            <div class="language">
+               <div class="lang-row">
+                <span>English</span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z"/></svg>
+               </div>
+            </div>
+            <div class="user-options">
+                <button class="login-btn">Login</button>
+                <button class="sell-button">+ SELL</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="categories">
+            <h4>All  CATEGORIES</h4>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+            <div class="category-list">
+                <ul>
+                    <li><a href="#">Car</a></li>
+                    <li><a href="#">Motorcycles</a></li>
+                    <li><a href="#">Mobile Phones</a></li>
+                    <li><a href="#">For Sale: House & Appartment</a></li>
+                    <li><a href="#">Scooter</a></li>
+                    <li><a href="#">Commercial & Other Vehicle</a></li>
+                    <li><a href="#">Books & Stationery</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Advertisement -->
+
+        <div class="ad1">
+            <div class="ad-container">
+                <p>Advertisement</p>
+                <div class="ad-img">
+                    <img src="https://tpc.googlesyndication.com/simgad/6242751556887844617" alt="adimg">
+                </div>
+            </div>
+        </div>
+
+         <!-- Grid  container -->
+        <div class="grid">
+            <h2>Fresh recommendations</h2>
+            <div class="container">
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/t9e5s1uxu8jm3-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 3,45,000</div>
+                        <div class="description">2012 - 79000.0 km<br>Maruti Suzuki Swift 2011-2014 VXI, 2012...</div>
+                        <div class="location">JP Nagar Phase 2, Bengaluru</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/ibsxa9jt3mcf1-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 1,49,900</div>
+                        <div class="description">SuperRare Huawei Pura 70 Ultra 1TB...</div>
+                        <div class="location">MG Road, Pune</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/64qjh7iqwfx9-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 7,500</div>
+                        <div class="description">Vivo v27 5G mobile 8GB RAM 128 GB in...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/6xnzg12hc25c-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 25,500</div>
+                        <div class="description">Selling my 6 months old iPhone 15. Ne...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/29rhmrxqgdru1-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 20,000</div>
+                        <div class="description">2012 - 34,245 km<br> Splendor sale</div>
+                        <div class="location">MADURAVOYAL, CHENNAI</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/l1y1adua5trg-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 2,000</div>
+                        <div class="description">1 Bds - 1Ba - 50 ft2<br> We have new latest collection ultra sim...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/cto91y6up8xc3-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 439</div>
+                        <div class="description">3 in 1 portable high vaccum cleaner. US...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/tn8zv3y6pahg3-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 26,00,000</div>
+                        <div class="description">Land for sale ( शेती विकर्ण आहे )</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/ng8m3593i6gb3-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 2,000</div>
+                        <div class="description">We have new latest collection combo p...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/x2of4fp5ljbu-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 5,00,000</div>
+                        <div class="description">Durgapur Expressway (NH19) - Industrial...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/4cf3xiihltsk-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 3,500</div>
+                        <div class="description">RD5 Projectore 3D 4K wifi smart youtube...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/1d0kf2666tn5-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 175</div>
+                        <div class="description">Pc Software, games</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/x33jlaxa0wld-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 699</div>
+                        <div class="description">Steel smart thermos bottle</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/70kcsmswfjcd2-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 999</div>
+                        <div class="description">Gym equipment</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/1uiq8i3jz02s3-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 250</div>
+                        <div class="description">New OFFER (Pack of 500) Long...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/19a1d60nyasw2-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 1,700</div>
+                        <div class="description">Antique maritime victoria Pocket watch...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/zemcfyu0xqve1-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 3,599</div>
+                        <div class="description">led projector shop 4k 3d projector wifi...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/aphhqc18jn5m2-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 2,800</div>
+                        <div class="description">Title - Antique Brass Maritime Stand Telescope..</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/ctwkwj3ag4em3-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 3,500</div>
+                        <div class="description">RDD5 3D 4K projector wifi smart youtube...</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img class="fit-img" src="https://apollo.olx.in/v1/files/ukzm4fqfclq63-IN/image;s=300x600;q=60" alt="">
+                        <div class="price">₹ 1,90,00,000</div>
+                        <div class="description">2Bds - 3 Ba - 2592 ft2<br>Home for sale</div>
+                        <div class="location">Samudrapur, Maharashtra</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="load-more-button">
+            <button class="load-more-btn">Load more</button>
+        </div>
+        <div class="ad2">
+            <div class="ad-container">
+                <p>Advertisement</p>
+                <div class="ad-img">
+                    <img src="https://tpc.googlesyndication.com/simgad/10474819781676424855" alt="adimg">
+                </div>
+            </div>
+        </div>
+        <div class="top-footer">
+            <div class="olx-img">
+                <img src="assets\phone-app (1).webp" alt="">
+            </div>
+            <div class="olx-text">
+                <h2>TRY THE OLX APP</h2>
+                <p>Buy, sell and find just about anything using the app on you mobile</p>
+            </div>
+            <div class="get-your-app">
+                <h4>GET YOUR APP TODAY</h4>
+                <div class="stores">
+                    <img src="assets\appstore_2x.webp" alt="App Store">
+                    <img src="assets\playstore_2x.webp" alt="Google Play">
+                </div>
+        </div>
+            </div>
+        </div>
+
+    <div class="footer-section">
+        <div class="footer-container">
+            <div class="popular-locations">
+                <h3>Popular Locations</h3>
+                <ul>
+                    <li><a href="#">Kolkata</a></li>
+                    <li><a href="#">Mumbai</a></li>
+                    <li><a href="#">Chennai</a></li>
+                    <li><a href="#">Pune</a></li>
+                </ul>
+            </div>
+            <div class="tranding-locations">
+                <h3>Trending Locations</h3>
+                <ul>
+                    <li><a href="#">Bhubaneshwar</a></li>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a href="#">Chandigarh</a></li>
+                    <li><a href="#">Nashik</a></li>
+                </ul>
+            </div>
+            <div class="about-us">
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="#">Contect Us</a></li>
+                    <li><a href="#">Tech@OLX</a></li>
+                </ul>
+            </div>
+            <div class="olx">
+                <h3>Olx</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Leagal & Privacy information</a></li>
+                    <li><a href="#">Vulnerability Disclosure Program</a></li>
+                </ul>
+            </div>
+            <div class="follow-us">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><img src="assets/fb.svg" alt="Facebook"></a>
+                    <a href="#"><img src="assets/insta.svg" alt="Instagram"></a>
+                    <a href="#"><img src="assets/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="assets/play.svg" alt="YouTube"></a>
+                </div>
+                <div class="app-links">
+                    <a href="#"><img src="assets/playstore_2x.webp" alt="Get it on Google Play"></a>
+                    <a href="#"><img src="assets/appstore_2x.webp" alt="Download on the App Store"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+        </main>
+    <footer>
+        <div>
+            <img src="assets/cartrade_tech.svg" alt="" style="width: 244px;height: 80px;">
+            <img src="assets/olx.svg" alt="" style="width: 144px;height: 60px;">
+            <img src="assets/carwale.svg" alt="" style="width: 144px;height: 60px;">
+            <img src="assets/bikewale.svg" alt="" style="width: 144px;height: 60px;">
+            <img src="assets/cartrade.svg" alt="" style="width: 144px;height: 60px;">
+            <img src="assets/mobility.svg" alt="" style="width: 144px;height: 60px;">
+        </div>
+        <div class="copyright">
+            <h5>Help-Sitemap</h5>
+            <h5>All rights reserved © 2006-2024 OLX</h5>
+        </div>
+    </footer>
+</body>
+</html>
